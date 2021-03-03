@@ -1,0 +1,25 @@
+{
+  "name": "transfer-link",
+  "version": "1.0.0",
+  "description": "Test file upload using transfer link",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "npx cypress run --headed --no-exit",
+    "test": "npx cypress run"
+  },
+  "author": "Abhinav Chadha",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^7.0.0-rc.0",
+    "cypress": "^6.5.0",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress-file-upload": "^5.0.2",
+    "dotenv": "^8.2.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

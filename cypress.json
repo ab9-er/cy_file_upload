@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://wetransfer.com",
+    "testFiles": "**/*.feature",
+    "ignoreTestFiles": ["*.js", "*.ts", "*.md"],
+    "viewportWidth": 1360,
+    "viewportHeight": 790,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "timestamp": "dd-mm-yyyy HH:MM:ss"
+    }
+}

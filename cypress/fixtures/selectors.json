@@ -1,0 +1,15 @@
+{
+    "accept_gdpr": ".welcome__button--accept",
+    "accept_tnc": ".transfer__button",
+    "add_files": "[type=\"file\"]",
+    "receiver": "input[name=\"autosuggest\"]",
+    "sender": "input[name=\"email\"]",
+    "message": "[name=\"message\"]",
+    "transfer_btn": ".transfer__button",
+    "transfer_options": ".transfer__toggle-options",
+    "transfer_link_option": "[for=\"transfer__type-link\"]",
+    "upload_complete": ".uploader--complete",
+    "transfer_link_url": ".transfer-link__url",
+    "message_content": ".message__content",
+    "file_name": ".file-system-entry__title"
+}

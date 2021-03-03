@@ -1,3 +1,5 @@
+[![ab9-er](https://circleci.com/gh/ab9-er/cy_file_upload.svg?style=shield)](<LINK>)
+
 # Transfer Link Exercise
 
 The project makes use of Cypress as the automation framework of choice.

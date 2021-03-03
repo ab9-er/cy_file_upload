@@ -1,7 +1,7 @@
 clean:
-	find . -name "cypress/report/mochawesome-report" | xargs rm -rf
-	find . -name "cypress/screenshots/*.png*" | xargs rm -rf
-	find . -name "cypress/videos/*.mp4*" | xargs rm -rf
+	find . -path "*report/mochawesome-report" | xargs rm -rf
+	find . -path "*screenshots/*.png" | xargs rm -rf
+	find . -name "*.mp4*" | xargs rm -rf
 
 build:
 	docker build -t transfer .
